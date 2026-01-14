@@ -118,13 +118,14 @@ ul {
 }
 
 .btn-primary {
-    background: #4A5BC7;
-    color: #fff;
+    background: transparent;
+    color: #4A5BC7;
     border: 2px solid #4A5BC7;
 }
 
 .btn-primary:hover {
     background: #3a4ab5;
+    color: white;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(74, 91, 199, 0.3);
 }
@@ -140,6 +141,18 @@ ul {
     color: #fff;
     transform: translateY(-2px);
 }
+
+.btn-cv {
+    background: #4A5BC7;
+    color: #fff;
+     border: 2px solid #4A5BC7;
+}
+.btn-cv:hover {
+    background: #5b6cd8;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
 
 /* ==================== */
 /* Hero Section */
