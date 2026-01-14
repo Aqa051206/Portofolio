@@ -742,10 +742,20 @@ ul {
 }
 
 @media (max-width: 768px) {
-    .nav-links {
+     .nav-links {
         display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 15px;
     }
-    
+
+    .nav-links.active {
+        display: flex;
+    }
     .hamburger {
         display: flex;
     }
